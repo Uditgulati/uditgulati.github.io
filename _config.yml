@@ -1,7 +1,7 @@
 # Site settings
 title: Test Websit for my blogs.
 description: It's description
-# baseurl: "/blog" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings

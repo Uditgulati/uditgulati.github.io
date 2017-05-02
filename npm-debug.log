@@ -1,0 +1,409 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData browser-sync
+20 silly mapToRegistry name browser-sync
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'browser-sync',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'browser-sync',
+23 silly mapToRegistry   name: 'browser-sync',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+25 silly fetchNamedPackageData gulp
+26 silly mapToRegistry name gulp
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'gulp',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'gulp',
+29 silly mapToRegistry   name: 'gulp',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/gulp
+31 silly fetchNamedPackageData gulp-concat
+32 silly mapToRegistry name gulp-concat
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'gulp-concat',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'gulp-concat',
+35 silly mapToRegistry   name: 'gulp-concat',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+37 silly fetchNamedPackageData gulp-csso
+38 silly mapToRegistry name gulp-csso
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'gulp-csso',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'gulp-csso',
+41 silly mapToRegistry   name: 'gulp-csso',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/gulp-csso
+43 silly fetchNamedPackageData gulp-imagemin
+44 silly mapToRegistry name gulp-imagemin
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'gulp-imagemin',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'gulp-imagemin',
+47 silly mapToRegistry   name: 'gulp-imagemin',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+49 silly fetchNamedPackageData gulp-plumber
+50 silly mapToRegistry name gulp-plumber
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'gulp-plumber',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'gulp-plumber',
+53 silly mapToRegistry   name: 'gulp-plumber',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/gulp-plumber
+55 silly fetchNamedPackageData gulp-sass
+56 silly mapToRegistry name gulp-sass
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'gulp-sass',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'gulp-sass',
+59 silly mapToRegistry   name: 'gulp-sass',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+61 silly fetchNamedPackageData gulp-uglify
+62 silly mapToRegistry name gulp-uglify
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'gulp-uglify',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'gulp-uglify',
+65 silly mapToRegistry   name: 'gulp-uglify',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+67 verbose request uri https://registry.npmjs.org/browser-sync
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 2:36:50 AM
+70 verbose request id f8e1cd5efa9013cc
+71 http request GET https://registry.npmjs.org/browser-sync
+72 verbose request uri https://registry.npmjs.org/gulp
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 2:36:50 AM
+75 http request GET https://registry.npmjs.org/gulp
+76 verbose request uri https://registry.npmjs.org/gulp-concat
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 2:36:50 AM
+79 http request GET https://registry.npmjs.org/gulp-concat
+80 verbose request uri https://registry.npmjs.org/gulp-csso
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 2:36:50 AM
+83 http request GET https://registry.npmjs.org/gulp-csso
+84 verbose request uri https://registry.npmjs.org/gulp-imagemin
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 2:36:50 AM
+87 http request GET https://registry.npmjs.org/gulp-imagemin
+88 verbose request uri https://registry.npmjs.org/gulp-plumber
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 2:36:50 AM
+91 http request GET https://registry.npmjs.org/gulp-plumber
+92 verbose request uri https://registry.npmjs.org/gulp-sass
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 2:36:50 AM
+95 http request GET https://registry.npmjs.org/gulp-sass
+96 verbose request uri https://registry.npmjs.org/gulp-uglify
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 2:36:50 AM
+99 http request GET https://registry.npmjs.org/gulp-uglify
+100 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+101 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+102 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+103 info attempt registry request try #2 at 2:37:05 AM
+104 http request GET https://registry.npmjs.org/gulp-uglify
+105 info attempt registry request try #2 at 2:37:05 AM
+106 http request GET https://registry.npmjs.org/gulp-imagemin
+107 info attempt registry request try #2 at 2:37:05 AM
+108 http request GET https://registry.npmjs.org/gulp-concat
+109 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+110 info attempt registry request try #3 at 2:38:10 AM
+111 http request GET https://registry.npmjs.org/gulp-imagemin
+112 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+112 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+112 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+112 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+112 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+112 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+112 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+112 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+112 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+112 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+112 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+112 silly fetchPackageMetaData  error for gulp-imagemin@^3.1.1 { Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+112 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+112 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+112 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+112 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+112 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+112 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+112 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+112 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+112 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+112 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+113 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+114 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+115 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+116 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+117 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+118 info attempt registry request try #2 at 2:39:07 AM
+119 http request GET https://registry.npmjs.org/browser-sync
+120 info attempt registry request try #2 at 2:39:07 AM
+121 http request GET https://registry.npmjs.org/gulp-sass
+122 info attempt registry request try #2 at 2:39:07 AM
+123 http request GET https://registry.npmjs.org/gulp-plumber
+124 info attempt registry request try #2 at 2:39:07 AM
+125 http request GET https://registry.npmjs.org/gulp-csso
+126 info attempt registry request try #2 at 2:39:07 AM
+127 http request GET https://registry.npmjs.org/gulp
+128 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+129 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+130 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+131 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+132 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+133 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+134 info attempt registry request try #3 at 2:40:12 AM
+135 http request GET https://registry.npmjs.org/gulp-uglify
+136 info attempt registry request try #3 at 2:40:12 AM
+137 http request GET https://registry.npmjs.org/gulp-concat
+138 info attempt registry request try #3 at 2:40:13 AM
+139 http request GET https://registry.npmjs.org/browser-sync
+140 info attempt registry request try #3 at 2:40:13 AM
+141 http request GET https://registry.npmjs.org/gulp-csso
+142 info attempt registry request try #3 at 2:40:13 AM
+143 http request GET https://registry.npmjs.org/gulp-plumber
+144 info attempt registry request try #3 at 2:40:13 AM
+145 http request GET https://registry.npmjs.org/gulp-sass
+146 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+146 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+146 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+146 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+146 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+146 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+146 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+146 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+146 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+146 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+146 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+146 silly fetchPackageMetaData  error for gulp-uglify@^2.0.0 { Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+146 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+146 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+146 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+146 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+146 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+146 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+146 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+146 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+146 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+146 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+147 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+147 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+147 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+147 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+147 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+147 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+147 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+147 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+147 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+147 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+147 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+147 silly fetchPackageMetaData  error for gulp-concat@^2.6.1 { Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+147 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+147 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+147 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+147 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+147 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+147 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+147 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+147 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+147 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+147 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+148 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+148 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+148 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+148 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+148 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+148 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+148 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+148 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+148 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+148 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+148 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+148 silly fetchPackageMetaData  error for gulp-csso@^2.0.0 { Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+148 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+148 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+148 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+148 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+148 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+148 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+148 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+148 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+148 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+148 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+149 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+149 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+149 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+149 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+149 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+149 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+149 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+149 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+149 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+149 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+149 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+149 silly fetchPackageMetaData  error for gulp-sass@^3.1.0 { Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+149 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+149 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+149 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+149 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+149 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+149 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+149 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+149 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+149 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+149 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+150 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+151 info attempt registry request try #3 at 2:42:14 AM
+152 http request GET https://registry.npmjs.org/gulp
+153 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+153 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+153 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+153 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+153 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+153 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+153 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+153 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+153 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+153 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+153 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+153 silly fetchPackageMetaData  error for gulp-plumber@^1.1.0 { Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+153 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+153 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+153 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+153 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+153 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+153 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+153 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+153 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+153 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+153 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+154 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+154 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+154 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+154 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+154 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+154 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+154 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+154 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+154 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+154 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+154 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+154 silly fetchPackageMetaData  error for browser-sync@^2.18.6 { Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+154 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+154 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+154 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+154 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+154 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+154 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+154 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+154 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+154 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+154 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+155 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+155 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+155 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+155 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+155 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+155 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+155 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+155 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+155 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+155 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+155 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+155 silly fetchPackageMetaData  error for gulp@^3.9.1 { Error: tunneling socket could not be established, cause=connect ETIMEDOUT 172.16.12.2:3128
+155 silly fetchPackageMetaData     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+155 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+155 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+155 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+155 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+155 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+155 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+155 silly fetchPackageMetaData     at emitErrorNT (net.js:1281:8)
+155 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+155 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+156 silly rollbackFailedOptional Starting
+157 silly rollbackFailedOptional Finishing
+158 silly runTopLevelLifecycles Finishing
+159 silly install printInstalled
+160 verbose stack Error: tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+160 verbose stack     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+160 verbose stack     at ClientRequest.g (events.js:291:16)
+160 verbose stack     at emitOne (events.js:96:13)
+160 verbose stack     at ClientRequest.emit (events.js:188:7)
+160 verbose stack     at Socket.socketErrorListener (_http_client.js:309:9)
+160 verbose stack     at emitOne (events.js:96:13)
+160 verbose stack     at Socket.emit (events.js:188:7)
+160 verbose stack     at emitErrorNT (net.js:1281:8)
+160 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+160 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+161 verbose cwd /home/ab585/Documents/Github/uditgulati.github.io
+162 error Linux 4.4.0-21-generic
+163 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+164 error node v6.10.2
+165 error npm  v3.10.10
+166 error code ECONNRESET
+167 error network tunneling socket could not be established, cause=connect ECONNREFUSED 172.16.12.2:3128
+168 error network This is most likely not a problem with npm itself
+168 error network and is related to network connectivity.
+168 error network In most cases you are behind a proxy or have bad network settings.
+168 error network
+168 error network If you are behind a proxy, please make sure that the
+168 error network 'proxy' config is set properly.  See: 'npm help config'
+169 verbose exit [ 1, true ]
