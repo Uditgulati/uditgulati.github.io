@@ -1,11 +1,18 @@
 <head>
   <meta charset="utf-8">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <link rel="icon" href="{{ "/assets/img/logo.png" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
