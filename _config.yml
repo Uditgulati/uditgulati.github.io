@@ -1,6 +1,6 @@
 # Site settings
-title: Test Websit for my blogs.
-description: It's description
+title: Beating talent with hardwork!!
+description: My portfolio. Also a blog on which i write about my experiences and a few programming tutorials.
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -9,7 +9,7 @@ username: Udit Gulati
 user_description: First year undergrad at IIIT UNA. Competitve programmer and an amateur blogger.
 user_title: Competitive programmer
 email: uditgulati0@gmail.com
-github_username:  uditgulati
+github_username: uditgulati
 
 # Google-analytics
 google-analytics:
