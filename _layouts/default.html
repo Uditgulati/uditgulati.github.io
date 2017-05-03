@@ -2,13 +2,14 @@
 <html lang="en">
   {% include head.html %}
   <body>
-      {% include header.html %}
-      <section id="about">
-        {% include about.html %}
-      </section>
-      <section id="projects">
-        {% include projects.html %}
-      </section>
-        {{ content }}
-      {% include footer.html %}
+		  {% include header.html %}
+		  <section id="about">
+		    {% include about.html %}
+		  </section>
+		  <hr noshade width="80%" size="10" align="center">
+		  <section id="projects">
+		    {% include projects.html %}
+		  </section>
+		    {{ content }}
+		  {% include footer.html %}
   </body>
