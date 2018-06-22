@@ -1,12 +1,12 @@
 # Site settings
 title: Beating talent with hardwork!
-description: My portfolio. Also a blog on which i write about my experiences and a few programming tutorials.
+description: My portfolio.
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Udit Gulati
-user_description: CSE Sophomore at IIIT UNA. Competitve programmer and an amateur blogger.
+user_description: CSE Sophomore at IIIT UNA. Competitive programmer and open source enthusiast.
 user_title: Competitive programmer
 email: uditgulati0@gmail.com
 github_username: uditgulati
