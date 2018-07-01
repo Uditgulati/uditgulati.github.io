@@ -13,6 +13,6 @@ github_username: uditgulati
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-121657139-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
